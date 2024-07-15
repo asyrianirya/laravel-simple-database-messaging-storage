@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+th {
+	text-align: center;
+}
+table {
+	table-layout: fixed; 
+	width: 50%;
+}
+
+table, th, td{
+	border: 1px solid;
+}
+
+.wrap {
+	word-break:break-all;
+}
+
+#form-container {
+    max-width: 100vw; /* Atur lebar maksimum form container sesuai kebutuhan */
+    margin: 0 auto; /* Membuat form berada di tengah halaman */
+    padding: 20px;
+    border: 1px solid #ccc; /* Tambahkan border untuk tampilan yang lebih jelas */
+    border-radius: 5px; /* Membuat border berbentuk sudut */
+}
+
+#form-container form {
+    display: grid;
+    gap: 10px;
+}
+
+#form-container label {
+    font-weight: bold;
+}
+
+#form-container input[type="text"] {
+    width: 100%; /* Agar input field mengisi seluruh lebar parent */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#form-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#form-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
